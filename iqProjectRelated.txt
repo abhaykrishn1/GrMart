@@ -1,0 +1,187 @@
+Used figma for initiial frontend design.
+used draw.io for use case diagram.
+used SQL workbench to create ER-digram.
+
+port already in use kill the process on the port 7070
+
+
+-------------
+Comparision Between Technologies 
+why choose this above others
+
+
+1. Backend :   1. Node.js   2.JAVA EE spring beans  3. .Net  (good for azure as Kubernets is free there )+ current tie ups by microsoft to provide free uses in Startups
+
+2. Front End : NEXT.js(Loading React pages on Server side, Used in production grade )
+                      Disadvantage of React is SEO as it loads on the Client so it can not be accessed by web Crawlers 
+                      Current trend is making Multiple single page application where each functionality is a different SPA single page application.
+                      
+Node js :uses js  has Strong support of Developers : currently has more than thousands of ready made packages just ready To use 
+To make 
+runs on browser : was responsible for understanding js code
+tooks v8 engine Powers node js
+
+Very Lightweight 
+given addition functionaltily : Node js is a Runtime. Not a programming language.
+acces to file system 
+Operating System level Api
+        multiple threads
+        accessing network on elivated privilege mode
+
+
+
+
+
+
+------------------------------------------
+Future Scope :
+A number of features can  be added to this system in future like providing moderator more control over products so that each moderator can maintain their own products  . 
+Another feature we wished to implement was providing  classes for customers so that different offers can be given to each class .
+ System may keep tracks of History of purchases of each customer and provide suggestions based on their history . These features could have implemented unless the time did not limit us.
+for user     Comparision between products.
+                Comparision between pricing  
+other Good  features:
+Track, adjust items, update quantities, and transfer stock across all locations;
+Send automatic low stock alerts for retailers to create and send purchase orders to vendors;
+Search products by keyword or by scanning barcodes;
+Control inventory from any device;
+Import products through CSV and organize categories for unlimited items;
+
+Bar Code Scanning
+Commercially packaged products include bar codes that offer an inventory tracking option. In this method, the bar code on each package is manually scanned with a handheld unit. The scanner corresponds with a software program to allow report generation. This method is faster than manually counting items or comparing the physical inventory to tags collected at the register. It does take time since each item requires individual scanning.
+
+Bar Codes
+In a bar code, or Universal Product Code (UPC) system, every item carries a label that gives information about the item, such as what it is, where it is located and what price it sells for. The code can be scanned with a hand-held bar code reader. Items are scanned at the cash register, as they are sold, and also in the warehouse. Computer programs then analyze the scans and tell you exactly how many items you have sold and how many you still have in the warehouse. This allows you to keep track of sales as well as the number of items you have on hand.
+
+RFID
+Radio frequency identification tracks inventory through a radio wave system. Tags on the products transmit to the reader device. The tag has the capability to hold a variety of information about the products. Because of the sound waves, you don't have to physically scan each item. The reader can scan multiple products at once, allowing you to keep products on the shelves rather than moving each one to reach the bar code. This speeds up the inventory process.
+
+
+
+
+
+
+
+
+ 
+Disadvantages:
+Compulsory registration . 
+---Security concerns
+Some items are hard to purchase online . 
+Waiting for a product to be delivered . 
+
+
+Advantages:
+Gives store owners insightful data and analytics, handles transactions quickly, and manages inventory effortlessly.
+customer will get the service of online shopping and home delivery from his favorite shop. 
+This system can be implemented to any shop in the locality or to multinational branded shops having retail outlet chains. 
+If shops are providing an online portal where their customers can enjoy easy shopping from anywhere, the shops won’t be losing any more customers to the trending online shops such as Flipkart or Amazon.
+
+Ability to handle multiple purchases . 
+online  grocery shopping spare you the time of going to your local store  and wait for your turn to place the order. 
+Lower costs of store maintenance . 
+You can retarget the customers . 
+Detailed product information . 
+Automation minimizes human error .
+E-commerce saves time for a customer
+Shopkeep powerful tools, and an intuitive interface for retail businesses.
+
+-- it can actually be combined with real existing Stores 
+if they already implement check in checkout devices SCANNERs for bar code ... this can be added to existing working
+=> scanner provides database mgt for STOCKs
+----Too much unknowns   
+
+other Good  features:
+Track, adjust items, update quantities, and transfer stock across all locations;
+Send automatic low stock alerts for retailers to create and send purchase orders to vendors;
+Search products by keyword or by scanning barcodes;
+Control inventory from any device;
+Import products through CSV and organize categories for unlimited items;
+
+
+---------------
+
+
+
+
+
+
+Offer Functionality by:  Admin
+-- to all the users  
+-- to selected user Class -- > future scope that can be implemented if time allows
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------
+
+Reducers are a fundamental part of state management in libraries like Redux, which is commonly used with React applications.
+What are Reducers?
+Reducers are functions in Redux (and similar state management libraries) that specify how the application's state changes in response to dispatched actions. They take the current state and an action as input, and they return a new state. 
+
+key principles of reducers are:
+Pure Functions: Reducers must be pure functions, meaning they should not have side effects and should produce the same output for the same input. This makes them predictable and testable.
+
+Immutable Updates: Reducers should not modify the existing state but create a new state object with the desired changes. This immutability is crucial for tracking state changes.
+
+Single Responsibility: Each reducer typically handles a specific part of the application state. This modular approach helps maintainability and separation of concerns.
+
+
+********** Context API with useReducer:
+React's Context API paired with the useReducer hook can provide a simpler alternative to Redux for state management within smaller applications. It eliminates some of the ceremony associated with Redux.
+              Limitations:
+Performance: Context can trigger re-renders in components that consume the context when the context value changes. You can mitigate this with memoization techniques or by using memoized selectors.
+**********
+
+1. Redux Toolkit:
+Redux Toolkit is an official package that simplifies Redux development. It includes the createSlice function, which generates reducers and action creators automatically, reducing boilerplate code.
+
+2. Immer:
+Immer is a library that simplifies the process of creating immutable updates in reducers. It allows you to write code that appears to be mutating state but automatically produces a new state object. It can make reducers more concise and readable.
+5. GraphQL with Apollo Client:
+In some cases, especially with GraphQL APIs, using Apollo Client for state management can be a powerful alternative. It handles data fetching and caching efficiently.
+6. Recoil (for React):
+Recoil is a state management library specifically designed for React applications. It provides an alternative to Redux that is well-suited for handling complex state in a React app.
+7. Server-Side State Management:
+For certain applications, server-side state management using technologies like WebSocket or Server-Sent Events (SSE) can be more efficient for real-time updates.
+--Depending on the complexity and requirements of your application, you may choose to continue using traditional Redux reducers or explore newer tools and libraries that simplify state management and reduce boilerplate code. The choice largely depends on your project's specific needs and your team's preferences.
+
+-------------------------------------------------------------
+
+
+------------------------------------------
+
+GD points for technology :
+
+https://build5nines.com/microsoft-for-startups-free-azure-and-other-benefits/
+In what can turn out to be a big boost for India's booming space-tech industry, the Indian Space Research Organisation (ISRO) and Microsoft signed a Memorandum of Understanding (MoU) on Thursday to fuel the growth of space technology startups in India.  
+
+India’s space economy is set to grow to nearly $13 billion by the year 2025, jumping from the $9.6 billion mark of 2020 at a CAGR of 6%, a report by the Indian Space Association (ISpA) and EY showed a few months back. 
+
+Through this tie-up, the space-tech startups identified by ISRO will be onboarded onto the Microsoft for Startups Founders Hub platform, which supports startups at every stage of their journey—from idea to unicorn.
+***** Support For Startup Founders
+The press release said that through Microsoft's Startup Founders Hub, space-tech startup founders in India will have free access to the tech tools and resources they need to build and run their businesses. This includes technical support to build and scale on Azure, best-in-class developer and productivity tools, including GitHub Enterprise, Visual Studio Enterprise, and Microsoft 365, and access to smart analytics with Power BI and Dynamics 365.
+Microsoft Learn for tailored startup-centric training content and programs 
+
+Anant Maheshwari, President, Microsoft India, said, “Space-tech startups in India are playing a significant role in advancing the country’s space capabilities with the power of technology. We are pleased to collaborate with ISRO to accelerate this transformation of what’s possible in space. Through our technology tools, platforms and mentorship opportunities, we are deeply committed to empowering space-tech startups in the country to drive cutting edge innovation and accelerate scientific discovery.”
+
+in May 2023     
+Pegasus will select startups with products that “fill a market need” and give them up to $350,000 in Azure, GitHub and LinkedIn credits plus backing from advisors, as well as “access to the best Microsoft tech,” according to Hans Yang, general manager at Microsoft for Startups.In private preview, Microsoft claims that Pegasus has already supported more than 100 startups whose average deal size exceeded $300,000. In total, it’s pledged over $35 million to those startups in tech credits.
+Pegasus is a two-year program, open to startups already active in Microsoft’s Founders Hub and with customer-facing products built on the Microsoft Cloud. A core requirement is having early product-market fit.
+
+Just as the old BizSpark program was targeted towards startups building products, and not consultancies, the Microsoft for Startups has the same requirement.
+
+Here are the other qualification requirements for getting your Startup accepted in the Microsoft for Startups program-
+Offer an innovative, technical solution that supports customers in their digital transformation
+Less than five years of existence
+Less than $10M in total annual revenue
+Seed or Series A, or equivalent phase of development
+Up to $20M in funding
+
+
+
