@@ -274,10 +274,7 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/git,java,maven,eclipse,windows
-
-
  Created by https://www.toptal.com/developers/gitignore/api/java,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,react
 
 ### Java ###
 # Compiled class file
